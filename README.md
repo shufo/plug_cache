@@ -6,7 +6,7 @@ A response caching plug based on [nebulex](https://github.com/cabol/nebulex)
 ```elixir
 def deps do
   [
-    {:plug_cache, "~> 0.1.0"}
+    {:plug_cache, "~> 0.1.0-rc1"}
   ]
 end
 ```
