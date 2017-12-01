@@ -1,0 +1,15 @@
+%{
+  "benchee": {:hex, :benchee, "0.10.0", "7227e83ab81e4753610125d251bbf78c99167fbe7f931a8cbfbc3eda8526259c", [], [{:deep_merge, "~> 0.1", [hex: :deep_merge, repo: "hexpm", optional: false]}], "hexpm"},
+  "cachex": {:hex, :cachex, "2.1.0", "fad49b4e78d11c6c314e75bd8c9408f5b78cb065c047442798caed10803ee3be", [], [{:eternal, "~> 1.1", [hex: :eternal, repo: "hexpm", optional: false]}], "hexpm"},
+  "deep_merge": {:hex, :deep_merge, "0.1.1", "c27866a7524a337b6a039eeb8dd4f17d458fd40fbbcb8c54661b71a22fffe846", [], [], "hexpm"},
+  "deppie": {:hex, :deppie, "1.1.0", "cfb6fcee7dfb64eb78cb8505537971a0805131899326ad469ef10df04520f451", [], [], "hexpm"},
+  "earmark": {:hex, :earmark, "1.2.4", "99b637c62a4d65a20a9fb674b8cffb8baa771c04605a80c911c4418c69b75439", [], [], "hexpm"},
+  "eternal": {:hex, :eternal, "1.1.4", "3a40fd9b9708f79216a6ec8ae886f2b17685dc26b119b9c0403c2b0d3dc1ac69", [], [{:deppie, "~> 1.1", [hex: :deppie, repo: "hexpm", optional: false]}], "hexpm"},
+  "ex2ms": {:hex, :ex2ms, "1.5.0", "19e27f9212be9a96093fed8cdfbef0a2b56c21237196d26760f11dfcfae58e97", [], [], "hexpm"},
+  "ex_doc": {:hex, :ex_doc, "0.18.1", "37c69d2ef62f24928c1f4fdc7c724ea04aecfdf500c4329185f8e3649c915baf", [], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm"},
+  "ex_shards": {:hex, :ex_shards, "0.2.1", "65c14d5ae71d6c4b617531f29923f8e57007e5b9874c100a11163c55ec0c7b21", [], [{:ex2ms, "~> 1.4", [hex: :ex2ms, repo: "hexpm", optional: false]}, {:shards, "~> 0.5", [hex: :shards, repo: "hexpm", optional: false]}], "hexpm"},
+  "mime": {:hex, :mime, "1.1.0", "01c1d6f4083d8aa5c7b8c246ade95139620ef8effb009edde934e0ec3b28090a", [], [], "hexpm"},
+  "nebulex": {:hex, :nebulex, "1.0.0-rc.2", "f197456c2cf8bfb8cc8da4872e76a02a65216f02806985246ad23ba4b0ac3c3e", [], [{:ex_shards, "~> 0.2", [hex: :ex_shards, repo: "hexpm", optional: false]}], "hexpm"},
+  "plug": {:hex, :plug, "1.4.3", "236d77ce7bf3e3a2668dc0d32a9b6f1f9b1f05361019946aae49874904be4aed", [], [{:cowboy, "~> 1.0.1 or ~> 1.1", [hex: :cowboy, repo: "hexpm", optional: true]}, {:mime, "~> 1.0", [hex: :mime, repo: "hexpm", optional: false]}], "hexpm"},
+  "shards": {:hex, :shards, "0.5.0", "2780002307ccf250368a067d59b364e7cf1af1c788a9f60b490d199a6028b6de", [], [], "hexpm"},
+}
