@@ -5,7 +5,7 @@ defmodule PlugCache.MixProject do
     [
       app: :plug_cache,
       description: description(),
-      version: "0.1.0-rc1",
+      version: "0.1.1-rc1",
       elixir: "~> 1.5",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
