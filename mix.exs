@@ -17,7 +17,7 @@ defmodule PlugCache.MixProject do
 
   defp description do
     """
-    An Elixir plug rate limiting with redis.
+    An Elixir plug to cache the response
     """
   end
 
