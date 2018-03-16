@@ -3,12 +3,23 @@
 A response caching plug based on [nebulex](https://github.com/cabol/nebulex)
 ## Installation
 
+Add plug_cache to your mix dependencies
+
 ```elixir
 def deps do
   [
     {:plug_cache, "~> 0.1.0-rc1"}
   ]
 end
+```
+
+Add to your applications
+
+```elixir
+@applications = [
+  ...
+  :plug_cache
+]
 ```
 
 ## Usage
