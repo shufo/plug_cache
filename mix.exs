@@ -34,7 +34,7 @@ defmodule PlugCache.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:nebulex, "~> 1.0.0-rc.2"},
+      {:nebulex, "~> 1.1.1"},
       {:plug, "~> 1.0"},
       {:benchee, "~> 0.10", only: [:dev, :test], optional: true},
       {:ex_doc, ">= 0.0.0", only: :dev}
