@@ -36,7 +36,7 @@ defmodule PlugCache.MixProject do
     [
       {:nebulex, "~> 1.0.0-rc.2"},
       {:plug, "~> 1.0"},
-      {:benchee, "~> 0.10", only: [:dev, :test], optional: true},
+      {:benchee, "~> 1.0", only: [:dev, :test], optional: true},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end

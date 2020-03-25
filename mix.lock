@@ -1,7 +1,7 @@
 %{
-  "benchee": {:hex, :benchee, "0.10.0", "7227e83ab81e4753610125d251bbf78c99167fbe7f931a8cbfbc3eda8526259c", [:mix], [{:deep_merge, "~> 0.1", [hex: :deep_merge, repo: "hexpm", optional: false]}], "hexpm", "5a25788c6a311601e650d70b1f41a530e50287bb10cb88e726ebde48f31ba013"},
+  "benchee": {:hex, :benchee, "1.0.1", "66b211f9bfd84bd97e6d1beaddf8fc2312aaabe192f776e8931cb0c16f53a521", [:mix], [{:deep_merge, "~> 1.0", [hex: :deep_merge, repo: "hexpm", optional: false]}], "hexpm", "3ad58ae787e9c7c94dd7ceda3b587ec2c64604563e049b2a0e8baafae832addb"},
   "cachex": {:hex, :cachex, "2.1.0", "fad49b4e78d11c6c314e75bd8c9408f5b78cb065c047442798caed10803ee3be", [], [{:eternal, "~> 1.1", [hex: :eternal, repo: "hexpm", optional: false]}], "hexpm"},
-  "deep_merge": {:hex, :deep_merge, "0.1.1", "c27866a7524a337b6a039eeb8dd4f17d458fd40fbbcb8c54661b71a22fffe846", [:mix], [], "hexpm", "7dd57812332d76067deb9611b93cc98ac74cbb3b09480eef80c7e3c5a0813ecf"},
+  "deep_merge": {:hex, :deep_merge, "1.0.0", "b4aa1a0d1acac393bdf38b2291af38cb1d4a52806cf7a4906f718e1feb5ee961", [:mix], [], "hexpm", "ce708e5f094b9cd4e8f2be4f00d2f4250c4095be93f8cd6d018c753894885430"},
   "deppie": {:hex, :deppie, "1.1.0", "cfb6fcee7dfb64eb78cb8505537971a0805131899326ad469ef10df04520f451", [], [], "hexpm"},
   "earmark": {:hex, :earmark, "1.2.4", "99b637c62a4d65a20a9fb674b8cffb8baa771c04605a80c911c4418c69b75439", [:mix], [], "hexpm", "1b34655872366414f69dd987cb121c049f76984b6ac69f52fff6d8fd64d29cfd"},
   "eternal": {:hex, :eternal, "1.1.4", "3a40fd9b9708f79216a6ec8ae886f2b17685dc26b119b9c0403c2b0d3dc1ac69", [], [{:deppie, "~> 1.1", [hex: :deppie, repo: "hexpm", optional: false]}], "hexpm"},
