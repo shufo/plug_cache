@@ -1,6 +1,7 @@
 %{
   "benchee": {:hex, :benchee, "0.10.0", "7227e83ab81e4753610125d251bbf78c99167fbe7f931a8cbfbc3eda8526259c", [:mix], [{:deep_merge, "~> 0.1", [hex: :deep_merge, repo: "hexpm", optional: false]}], "hexpm", "5a25788c6a311601e650d70b1f41a530e50287bb10cb88e726ebde48f31ba013"},
   "cachex": {:hex, :cachex, "2.1.0", "fad49b4e78d11c6c314e75bd8c9408f5b78cb065c047442798caed10803ee3be", [], [{:eternal, "~> 1.1", [hex: :eternal, repo: "hexpm", optional: false]}], "hexpm"},
+  "decorator": {:hex, :decorator, "1.3.2", "63b8ac9e23b28053390abdda33bb9e1f3dd9e8f9a981f47a06fc2f2fe2e2f772", [:mix], [], "hexpm", "b80bd089e3c8579e6d9ea84eed307b1597a0d94af25331e424a209477ad1a7fc"},
   "deep_merge": {:hex, :deep_merge, "0.1.1", "c27866a7524a337b6a039eeb8dd4f17d458fd40fbbcb8c54661b71a22fffe846", [:mix], [], "hexpm", "7dd57812332d76067deb9611b93cc98ac74cbb3b09480eef80c7e3c5a0813ecf"},
   "deppie": {:hex, :deppie, "1.1.0", "cfb6fcee7dfb64eb78cb8505537971a0805131899326ad469ef10df04520f451", [], [], "hexpm"},
   "earmark": {:hex, :earmark, "1.2.4", "99b637c62a4d65a20a9fb674b8cffb8baa771c04605a80c911c4418c69b75439", [:mix], [], "hexpm", "1b34655872366414f69dd987cb121c049f76984b6ac69f52fff6d8fd64d29cfd"},
@@ -9,8 +10,8 @@
   "ex_doc": {:hex, :ex_doc, "0.18.1", "37c69d2ef62f24928c1f4fdc7c724ea04aecfdf500c4329185f8e3649c915baf", [:mix], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm", "f050061c87ad39478c942995b5a20c40f2c0bc06525404613b8b0474cb8bd796"},
   "ex_shards": {:hex, :ex_shards, "0.2.1", "65c14d5ae71d6c4b617531f29923f8e57007e5b9874c100a11163c55ec0c7b21", [:mix], [{:ex2ms, "~> 1.4", [hex: :ex2ms, repo: "hexpm", optional: false]}, {:shards, "~> 0.5", [hex: :shards, repo: "hexpm", optional: false]}], "hexpm", "e81a99fc702a90a35b4059dee0c707f05060d27f3820af5c4fe0e1e2dc258dbf"},
   "mime": {:hex, :mime, "1.3.1", "30ce04ab3175b6ad0bdce0035cba77bba68b813d523d1aac73d9781b4d193cf8", [:mix], [], "hexpm", "6cbe761d6a0ca5a31a0931bf4c63204bceb64538e664a8ecf784a9a6f3b875f1"},
-  "nebulex": {:hex, :nebulex, "1.0.0-rc.2", "f197456c2cf8bfb8cc8da4872e76a02a65216f02806985246ad23ba4b0ac3c3e", [:mix], [{:ex_shards, "~> 0.2", [hex: :ex_shards, repo: "hexpm", optional: false]}], "hexpm", "0a178bfb0a2623d85d7e3873d47007a4c8b57abf017189487070c533c80b0814"},
+  "nebulex": {:hex, :nebulex, "1.2.1", "e56f240bb70e1260833d9ee67d19ed19af32568966bb19448130776f9f5fa24c", [:mix], [{:decorator, "~> 1.3", [hex: :decorator, repo: "hexpm", optional: false]}, {:shards, "~> 0.6", [hex: :shards, repo: "hexpm", optional: false]}], "hexpm", "26bed0ae15ada414b71d6420e59cb3d15730109faccff82349840354ec5f8f12"},
   "plug": {:hex, :plug, "1.10.0", "6508295cbeb4c654860845fb95260737e4a8838d34d115ad76cd487584e2fc4d", [:mix], [{:mime, "~> 1.0", [hex: :mime, repo: "hexpm", optional: false]}, {:plug_crypto, "~> 1.1.1 or ~> 1.2", [hex: :plug_crypto, repo: "hexpm", optional: false]}, {:telemetry, "~> 0.4", [hex: :telemetry, repo: "hexpm", optional: true]}], "hexpm", "422a9727e667be1bf5ab1de03be6fa0ad67b775b2d84ed908f3264415ef29d4a"},
   "plug_crypto": {:hex, :plug_crypto, "1.1.2", "bdd187572cc26dbd95b87136290425f2b580a116d3fb1f564216918c9730d227", [:mix], [], "hexpm", "6b8b608f895b6ffcfad49c37c7883e8df98ae19c6a28113b02aa1e9c5b22d6b5"},
-  "shards": {:hex, :shards, "0.5.0", "2780002307ccf250368a067d59b364e7cf1af1c788a9f60b490d199a6028b6de", [:make, :rebar3], [], "hexpm", "b5403c12a2f955b333b1ebecd9bd683c5d629017be9c6b215a5a42b3bb454bce"},
+  "shards": {:hex, :shards, "0.6.2", "e05d05537883220c3b8a8f9d40d5c8ba7ff6064c63ebb6b23046972f6863b2d1", [:make, :rebar3], [], "hexpm", "58afa3712f1f1256a2a15e39fa95b7cd758087aaa7a25beaf786daabd87890f0"},
 }
